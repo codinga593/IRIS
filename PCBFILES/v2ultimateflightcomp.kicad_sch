@@ -1,0 +1,814 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b6238148-31a0-45f9-b62e-3b615538cf3c")
+	(paper "A3")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 257.81 167.64) (xy 264.16 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5bd339-0ba6-404c-a6d4-5389fbb8e79c")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e445ba-d191-41e1-8d7a-dd3b3de3d01c")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 285.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17102cb5-e5af-4841-923c-332f5cde1924")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 281.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477d1e91-8979-4e87-9dc1-33bd3b71e0d4")
+	)
+	(wire
+		(pts
+			(xy 162.56 123.19) (xy 166.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3323f1-31b7-4fc9-9842-4169962fd814")
+	)
+	(wire
+		(pts
+			(xy 257.81 160.02) (xy 264.16 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544f5174-9a4f-4c88-94ef-811c48e26fc8")
+	)
+	(wire
+		(pts
+			(xy 285.75 73.66) (xy 285.75 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6417856a-a64b-4c77-8138-0f5d80bb3bfe")
+	)
+	(wire
+		(pts
+			(xy 281.94 76.2) (xy 281.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e30f46-85f6-4947-bf65-b7cf5f7f9afb")
+	)
+	(wire
+		(pts
+			(xy 257.81 153.67) (xy 264.16 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b739d0-3a04-4c52-9800-18bcb3487230")
+	)
+	(wire
+		(pts
+			(xy 109.22 123.19) (xy 118.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81bc078c-0a1e-48d0-aac8-758edea1e677")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 109.22 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7bb8dfb-f4f3-4bba-90cb-90974a799f34")
+	)
+	(wire
+		(pts
+			(xy 143.51 110.49) (xy 143.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7b92b9-e096-4f0e-8416-50e57df6432f")
+	)
+	(wire
+		(pts
+			(xy 105.41 127) (xy 118.11 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0fdc86-4933-4425-a27e-0805f609e922")
+	)
+	(wire
+		(pts
+			(xy 162.56 127) (xy 166.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8c9146-0984-4d51-a8a9-8c835dedfcea")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f924da8b-3f71-4b8f-947f-3ea206a4d7d6")
+	)
+	(sheet
+		(at 264.16 147.32)
+		(size 68.58 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "001319a4-2b11-45dd-9b1e-0329b7a92ab3")
+		(property "Sheetname" "PYROS"
+			(at 264.16 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pyros.kicad_sch"
+			(at 264.16 174.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 264.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "PYROFIRE_1" input
+			(at 264.16 153.67 180)
+			(uuid "9812cb42-0e88-42c6-a31d-808fdbe727b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYROFIRE_2" input
+			(at 264.16 160.02 180)
+			(uuid "fac8c3be-50b9-4d87-b389-36edd0e473a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYROFIRE_3" input
+			(at 264.16 167.64 180)
+			(uuid "83b5ac16-b135-4470-b258-722d3b515d2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 86.36)
+		(size 39.37 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ece7767-f94a-4473-99a6-30d506a79f60")
+		(property "Sheetname" "Telemetry"
+			(at 218.44 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "telemetry.kicad_sch"
+			(at 218.44 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 193.04)
+		(size 40.64 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25c8c87b-5215-4e82-afb2-47c82dfd74cb")
+		(property "Sheetname" "Power"
+			(at 118.11 192.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerssus.kicad_sch"
+			(at 118.11 213.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 143.51)
+		(size 45.72 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c0e13d0-2b4c-49f5-8d05-f7a28fca4fab")
+		(property "Sheetname" "Vision_Processing"
+			(at 118.11 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cm4rpi.kicad_sch"
+			(at 118.11 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 218.44 189.23)
+		(size 39.37 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6bd2db42-2b0a-47db-9d89-ac6a474f6ad9")
+		(property "Sheetname" "GPS_module"
+			(at 218.44 188.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps.kicad_sch"
+			(at 218.44 213.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 190.5)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70901654-8054-4d30-a847-4ca208132889")
+		(property "Sheetname" "Servos_Actuation"
+			(at 166.37 189.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "servos.kicad_sch"
+			(at 166.37 213.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 115.57)
+		(size 44.45 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b937244e-3084-46f0-9a3a-5e5ef6b19e20")
+		(property "Sheetname" "Clocks"
+			(at 118.11 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clocks.kicad_sch"
+			(at 118.11 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HSE_IN" bidirectional
+			(at 162.56 123.19 0)
+			(uuid "e495c50b-7895-473c-9ad9-ff9feda9a585")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSE_OUT" bidirectional
+			(at 162.56 127 0)
+			(uuid "1f368e0c-fabd-4bf6-835f-da4544131d6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XIN1" bidirectional
+			(at 129.54 115.57 90)
+			(uuid "db164690-6a7d-4888-a341-7c85589ad49f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XOUT1" bidirectional
+			(at 143.51 115.57 90)
+			(uuid "e40dfa8d-2c6c-4e61-a143-de0c525845d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XINIMU" bidirectional
+			(at 118.11 123.19 180)
+			(uuid "1676784b-ef25-4049-a063-03c309940ac8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XOUTIMU" bidirectional
+			(at 118.11 127 180)
+			(uuid "93cfdadf-7dda-4c16-b3a7-10c17eacfa20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 115.57)
+		(size 91.44 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d40a5829-f3fc-4881-867a-c4b9fa820e43")
+		(property "Sheetname" "MCU"
+			(at 166.37 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 166.37 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HSE_IN" bidirectional
+			(at 166.37 123.19 180)
+			(uuid "585b81ee-60b3-4c80-babe-018040c5eae5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSE_OUT" bidirectional
+			(at 166.37 127 180)
+			(uuid "108a8f4f-98af-463f-905c-dfdb053d1a65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PYROFIRE1" output
+			(at 257.81 153.67 0)
+			(uuid "6a719c56-97d6-472f-82ed-cdb2943bdb22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PYROFIRE2" output
+			(at 257.81 160.02 0)
+			(uuid "8a7f75f6-245a-4a27-963c-3c6159075766")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PYROFIRE3" output
+			(at 257.81 167.64 0)
+			(uuid "d834e97a-a569-47ae-a1a8-ee52ffe3bcf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 264.16 115.57)
+		(size 67.31 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eac7592c-8bea-48a3-be23-773834d5958d")
+		(property "Sheetname" "Sensors"
+			(at 264.16 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 264.16 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "XINIMU" bidirectional
+			(at 281.94 115.57 90)
+			(uuid "6234252c-0b31-4801-9c4b-ab22c133feb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XOUTIMU" bidirectional
+			(at 285.75 115.57 90)
+			(uuid "6640f830-2f41-4ae2-a1ca-356a6adf396c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 86.36)
+		(size 92.71 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed81b4d1-c2ac-4b97-946d-f2c0da6b0209")
+		(property "Sheetname" "mmWave"
+			(at 118.6684 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radar.kicad_sch"
+			(at 212.6746 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "XIN1" bidirectional
+			(at 129.54 110.49 270)
+			(uuid "969737e8-a639-409b-82dc-af7b7f18e982")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XOUT1" bidirectional
+			(at 143.51 110.49 270)
+			(uuid "2ae02e12-bfcf-4459-8010-cdebac8aa6d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 46.99)
+		(size 45.72 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fcfe6ef7-287c-4cd8-a3a1-95e9ec104294")
+		(property "Sheetname" "Memory"
+			(at 172.72 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memory.kicad_sch"
+			(at 172.72 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "v2ultimateflightcomp"
+				(path "/b6238148-31a0-45f9-b62e-3b615538cf3c"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
